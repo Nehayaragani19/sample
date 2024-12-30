@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    background: url('Images\bg-image.png');
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font: size 13px;
+
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: black;
+    font-size: 80px;
+}
+
+p {
+    color: plum;
+    font-size: 26px;
+    line-height: 20px;
+}
+
+button {
+    width: 180px;
+    color: black;
+    font-size: 15px;
+    padding: 12px 0;
+    background: brown;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+button:hover {
+
+    background: yellow;
+    scale: 1.1;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card1 {
+    background: url("Decision\ Leave.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card2 {
+    background: url("Old\ Boy.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card3 {
+    background: url("My\ Name.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card4 {
+    background: url("The\ 8th\ Night.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card p {
+    color: blue;
+    font-size: 10px;
+    line-height: center;
+}
+
+.card h5 {
+    color: yellow;
+    font-size: 15px;
+}
+
+.card:hover {
+    scale: 1.1;
+}
